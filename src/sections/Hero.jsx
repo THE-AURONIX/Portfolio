@@ -134,7 +134,8 @@ export default function Hero({ animReady }) {
               <span>Explore Our Work</span>
               <div className="liquid"></div>
             </button>
-            <button className="btn-ghost" id="hb2">View Case Studies</button>
+            <button className="btn-ghost" id="hb2" onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>
+              View Case Studies</button>
           </div>
         </div>
 

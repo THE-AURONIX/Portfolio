@@ -34,8 +34,9 @@ export default function Navbar() {
       <div className="n-links">
         <Link to="#about" onClick={(e) => { e.preventDefault(); handleLinkClick('about'); }}>About</Link>
         <Link to="#services" onClick={(e) => { e.preventDefault(); handleLinkClick('services'); }}>Services</Link>
-        <Link to="#process" onClick={(e) => { e.preventDefault(); handleLinkClick('process'); }}>Process</Link>
+        {/* <Link to="#process" onClick={(e) => { e.preventDefault(); handleLinkClick('process'); }}>Process</Link> */}
         <Link to="#tech" onClick={(e) => { e.preventDefault(); handleLinkClick('tech'); }}>Stack</Link>
+        <Link to="#projects" onClick={(e) => { e.preventDefault(); handleLinkClick('projects'); }}>Projects</Link>
         <Link to="#testimonials" onClick={(e) => { e.preventDefault(); handleLinkClick('testimonials'); }}>Clients</Link>
       </div>
       <button className="n-cta" onClick={() => handleLinkClick('cta')}>Start a Project</button>
@@ -47,6 +48,7 @@ export default function Navbar() {
         <Link to="#services" onClick={(e) => { e.preventDefault(); handleLinkClick('services'); }}>Services</Link>
         <Link to="#process" onClick={(e) => { e.preventDefault(); handleLinkClick('process'); }}>Process</Link>
         <Link to="#tech" onClick={(e) => { e.preventDefault(); handleLinkClick('tech'); }}>Stack</Link>
+        <Link to="#projects" onClick={(e) => { e.preventDefault(); handleLinkClick('projects'); }}>Projects</Link>
         <Link to="#testimonials" onClick={(e) => { e.preventDefault(); handleLinkClick('testimonials'); }}>Clients</Link>
         <Link to="#cta" className="n-cta-mobile" onClick={(e) => { e.preventDefault(); handleLinkClick('cta'); }}>Start a Project</Link>
       </div>

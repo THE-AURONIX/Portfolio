@@ -9,6 +9,7 @@ import Services from '../sections/Services';
 import Process from '../sections/Process';
 import Tech from '../sections/Tech';
 import Metrics from '../sections/Metrics';
+import Projects from '../sections/Projects';
 import Testimonials from '../sections/Testimonials';
 import CTA from '../sections/CTA';
 import Footer from '../sections/Footer';
@@ -35,6 +36,7 @@ export default function Home() {
       <Process animReady={animReady} />
       <Tech animReady={animReady} />
       <Metrics animReady={animReady} />
+      <Projects animReady={animReady} />
       <Testimonials />
       <CTA animReady={animReady} />
       <Footer />
